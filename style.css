@@ -12,7 +12,7 @@ h1, h2, h3 {
 }
 
 .hero-section {
-    background-image: url('URL_DE_VOTRE_IMAGE'); /* Remplacez par l'URL de votre image */
+    background-image: url('1702623185-tamarin-living-21.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -63,4 +63,21 @@ h1, h2, h3 {
 
 .cta-button:hover {
     background-color: #444;
+}
+
+.gallery-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 23%;
+    border-radius: 10px;
 }
